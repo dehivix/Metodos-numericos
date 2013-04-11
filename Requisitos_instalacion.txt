@@ -1,0 +1,49 @@
+#####################################--> REQUISITOS
+
+#_* Para que el sistema pueda correr con eficacia se necesita tener
+los siguientes requisitos:
+
+*servidor web (apache2, xampp, appserver...)
+*php y php5
+
+#_* Se recomienda tambien tener un navegador de ultima generacion
+(para la fecha) tal como:
+
+-google-chrome
+-firefox4
+-chromium-browser (solo linux)
+-opera
+-safary (solo windows)
+*Esto es importante ya que de no contar con uno de ellos significaria 
+no poder ejecutar funcionalidades javascripts entre otras.
+
+#####################################--> INSTALACION 
+
+#_* En el cd se incluyen los archivos de instalacion de servidor web
+
+#_* Para instalar el sistema en { Gnu/linux }
+
+1- Como super-usuario copia el archivo xampp-linux-1.7.3a.tar.gz a la carpeta /opt de tu equipo.
+2- Desde consola de root (super-usuario) direjete a la carpeta /opt (basta con cd /opt).
+3- Descomprime el archivo con el comando: tar xvfz xampp-linux-1.7.3a.tar.gz 
+o click derecho extraer si lo prefieres (no recomendado).
+4- Dale permisos a la carpeta de instalacion sudo chmod -R 777 /opt/lampp/
+5- ya a este punto esta instalado, resta copiar la carpeta SistemaMetodos del cd a la ruta
+/opt/lampp/htdocs/
+6- una vez copiado inicia el servidor con el comando /opt/lampp/lampp start (ojo solo como root)
+
+#_* si algo sale mal recuerda que puedes desinstalar con el comando: rm -rf /opt/lampp/ SUERTE!
+incluyo lampp unicamente por su portabilidad (prefiero usar apache).
+
+#_* Para instalar en sistema en { Windows } 
+
+1- Ejecuta el programa xampp-win32-1.6.7-installer.exe que esta en la carpeta instaladores
+del cd.
+2- inicia el servicio apache desde el panel de control (basta con marcar la primera casilla del
+programa)
+3- dirijete a la carpeta donde seleccionaste instalar el programa (por defecto es c:/Xampp)
+y en el subdirectorio htdocs pega la carpeta SistemaMetodos del cd 
+
+##--> En ambos casos (Linux y windows) abre el navegador web con la direccion: http://localhost/SistemaMetodos/
+
+#####################################--> "DEHIVIS PEREZ" "20.363.511" SECCION "1"
