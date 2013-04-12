@@ -1,4 +1,4 @@
-#####################################--> REQUISITOS
+####################################--> REQUISITOS
 
 #_* Para que el sistema pueda correr con eficacia se necesita tener
 los siguientes requisitos:
